@@ -1,0 +1,135 @@
+<html>
+  
+<head>
+    <title>Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ff50ff;
+            margin: 0;
+            padding: 0;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: #000000;
+        }
+ 
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f3ff05;
+            border: 2px solid #b7ff00;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+ 
+        th, td {
+            border: 1px solid #260080;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #00fe11;
+            color: #000000;
+        }
+ 
+        .highlight {
+            background-color: #001999;
+        }
+ 
+        .lab {
+            background-color: #6d91b1;
+        }
+
+        .vap {
+            background-color: aqua;
+        }
+
+        .interval {
+            background-color: rgb(255, 0, 0);
+        }
+
+        .lunch {
+            background-color: #ff9100;
+        }
+
+        .freehr {
+            background-color: rgb(125, 71, 0);
+        }
+
+        .special{
+            background-color: #ffffff;
+        }
+
+        .coun {
+            background-color: #ff0066;
+        }
+    </style>
+</head>
+ 
+<body>
+    <h1><br>TIME TABLE</h1>
+    <table style="width:95%">
+        
+        <tr>
+            <th>Day/Period</th>
+            <th>I<br>8:00-9:00</th>
+            <th>II<br>9:00-9:50</th>
+            <th>9:50-10:10</th>
+            <th>III<br>10:10-11:00</th>
+            <th>IV<br>11:00-11:50</th>
+            <th>11:50-12:30</th>
+            <th>V<br>12:40-1:20</th>
+            <th>VI<br>1:20-2:10</th>
+            <th>VII<br>2:10-3:00</th>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Tuesday</b></td>
+            <td colspan="2" class="vap">VAP</td>
+            <td rowspan="6" class="interval"><b>INTERVAL</b></td>
+            <td>POAI</td>
+            <td>IP</td>
+            <td rowspan="6" class="lunch"><b>LUNCH</b></td>
+            <td>TOC</td>
+            <td colspan="2" class="lab">RPA</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Wednesday</b></td>
+            <td>IP</td>
+            <td>POAI</td>
+            <td>CN</td>
+            <td class="freehr">Library</td>
+            <td colspan="2" class="lab">CN</td>
+            <td>TOC</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Thursday</b></td>
+            <td>CN</td>
+            <td>IP</td>
+            <td colspan="2" class="lab">IP</td>
+            <td class="coun">Counselling</td>
+            <td class="special">NPTEL</td>
+            <td class="freehr">Library</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Friday</b></td>
+            <td colspan="2" class="lab">RPA</td>
+            <td>CN</td>
+            <td>IP</td>
+            <td>TOC</td>
+            <td colspan="2" class="lab">CN</td>
+        </tr>
+        <tr>
+            <td class="highlight"><b>Saturday</b></td>
+            <td colspan="2" class="lab">POAI</td>
+            <td>POAI</td>
+            <td>CN</td>
+            <td>TOC</td>
+            <td colspan="2" class="lab">IP</td>
+        </tr>
+        
+    </table>
+</body>
+ 
+</html>
